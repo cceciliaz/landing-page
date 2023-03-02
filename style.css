@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+body {
+    
+    padding: auto;
+    width: auto;
+    background-color: #E3D16D;
+}
+header {
+    color: #fffdf1;
+    background-image: linear-gradient(to bottom,#067C80, #14C7CC);
+    text-align: center;
+    padding: 05px;
+}
+header a {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+nav > a:hover {
+    border-radius: 11px;
+    background-color: #04484b;
+    padding: 07px;
+    
+}
+nav {
+    padding-top: 30px;
+    text-align:left;
+}
+
+main h2 {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+}
+main p {
+    
+    margin-top: 10px;
+    margin-bottom: 25px ;
+}
+main {
+    padding-bottom: 200px;
+    margin: auto;
+    width: 700px;
+    text-align: justify;
+    
+}
+#nike{
+
+    width: 600px;
+}
+img {
+    text-align: center;
+    padding: 20px 10px;
+    width: 680px;
+    
+}
+footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:0px;
+}
